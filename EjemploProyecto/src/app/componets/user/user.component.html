@@ -1,7 +1,25 @@
 <h1>user works!<h1>
     <div>
-        <h2>Lista de Usuarios</h2>
-        <ul>
-          <li *ngFor="let Users of users ">{{ this.Users }}</li>
-        </ul>
-      </div>
+        <table>
+            <tr>
+              <th>ID</th>
+              <th>Nombre</th>
+              <th>Nombre de usuario</th>
+              <th>Email</th>
+              <th>Dirección</th>
+              <th>Teléfono</th>
+              <th>Sitio web</th>
+              <th>Compañía</th>
+            </tr>
+            <tr *ngFor="let item of users ">{{ users }}>
+              <td>{{ users}}</td>
+              <td>{{ users }}</td>
+              <td>{{ users }}</td>
+              <td>{{ users }}</td>
+              <td>{{ users}}</td>
+              <td>{{ users }}</td>
+              <td>{{ users }}</td>
+              <td>{{ users }}</td>
+            </tr> 
+        </table>
+    </div>
