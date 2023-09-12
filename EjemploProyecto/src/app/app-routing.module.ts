@@ -5,7 +5,7 @@ import { PostsComponent } from './componets/posts/posts.component';
 import { MainComponent } from './componets/main/main.component';
 
 const routes: Routes = [
-  {path: '', component: MainComponent},
+  {path: '', component: MainComponent,canActivate: []},
   {path: 'posts', component: PostsComponent},
   {path: 'users', component: UserComponent},
 ];
